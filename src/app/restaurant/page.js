@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import RestaurantLogin from "../_components/login";
-import RestaurantSignUp from "../_components/signup";
+import RestaurantLogin from "../_components/Login";
+import RestaurantSignUp from "../_components/Signup";
 import RestaurantHeader from "../_components/RestaurantHeader";
-
+import "./style.css";
 const Restaurant = () => {
   const [login, setlogin] = useState(true);
   return (
@@ -17,7 +17,6 @@ const Restaurant = () => {
         </button>
       </div>
       </div>
-    
   );
 };
 export default Restaurant;
