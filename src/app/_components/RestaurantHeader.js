@@ -1,9 +1,9 @@
 import Link from "next/link";
 const RestaurantHeader = () => {
     return (
-           <div>
-            <div>
-                <image style={{width:100}} src="https://t4.ftcdn.net/jpg/02/81/95/89/360_F_281958904_eOrxVWVlSUywQo66Q9haIhbK4vYNsCpM.jpg"/>
+           <div className="header-wrapper">
+            <div className="logo">
+                <img style={{width:100}} src="https://t4.ftcdn.net/jpg/02/81/95/89/360_F_281958904_eOrxVWVlSUywQo66Q9haIhbK4vYNsCpM.jpg"/>
             </div>
             <div>
                 <ul>
@@ -22,3 +22,4 @@ const RestaurantHeader = () => {
 
     );
 }
+export default RestaurantHeader;
